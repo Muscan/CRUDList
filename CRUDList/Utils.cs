@@ -49,8 +49,12 @@ namespace CRUDList
             return false;
         }
 
-       //pt validare id, parcurgere lista, si verificare daca exista alt id == id-ul intordus. bool cu for, param lista, produs, int
+      
 
+        /* public static bool IdUnique(List<Produs> produs, int id)
+        {
+            //TBD
+        }*/
         
 
     }

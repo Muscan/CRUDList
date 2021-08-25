@@ -14,7 +14,7 @@ namespace CRUDList
     public partial class Form1 : Form
     {
         private List<Produs> produse = new List<Produs>();
-        private string filePath = @"D:\C# Basics\CRUDList\CRUDList\Files\ListaProduse.txt";
+        private string filePath = @"../../../Files/ListaProduse.txt";
         BindingSource listBinding = new BindingSource();
         public Form1()
         {
